@@ -1,6 +1,14 @@
-<script setup></script>
+<script setup>
+import { defineProps } from "vue";
+defineProps({
+  bg: {
+    type: String,
+    default: "bg-gray-100",
+  },
+});
+</script>
 <template>
-    <div class="bg-gray-100 p-6 rounded-lg shadow-md">
-        <slot></slot>
-    </div>
+  <div :class="`${bg} p-6 rounded-lg shadow-md`">
+    <slot></slot>
+  </div>
 </template>
