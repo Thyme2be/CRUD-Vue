@@ -4,6 +4,13 @@ import { ref } from "vue";
 import JobListing from "./JobListing.vue";
 
 const jobs = ref(jobData);
+defineProps({
+  limit: Number,
+  showButton: {
+    type: Boolean,
+    default: false
+  }
+});
 </script>
 
 <template>
@@ -14,7 +21,20 @@ const jobs = ref(jobData);
       </h2>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <JobListing v-for="job in jobs" :key="job.id" :job="job" />
+      <JobListing
+        v-for="job in jobs.slice(0, limit || jobs.length)"
+        :key="job.id"
+        :job="job"
+      />
     </div>
+  </section>
+
+  <!-- View All Job Button -->
+  <section v-if="showButton" class="m-auto max-w-lg my-10 px-6">
+    <a
+      href="/jobs"
+      class="block bg-black text-white text-center py-4 px-6 rounded-xl hover:bg-gray-700"
+      >View All Jobs</a
+    >
   </section>
 </template>
