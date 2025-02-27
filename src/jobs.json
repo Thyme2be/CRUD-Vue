@@ -97,48 +97,6 @@
         "contactEmail": "kedumuca@mailinator.com",
         "contactPhone": "+1 (576) 261-1581"
       }
-    },
-    {
-      "id": "fb5a",
-      "type": "Remote",
-      "title": "Ulric Britt",
-      "description": "Nostrum deleniti sed",
-      "salary": "$125K - $150K",
-      "location": "Dicta consectetur de",
-      "company": {
-        "name": "Leach Ortiz Co",
-        "description": "Molestiae praesentiu",
-        "contactEmail": "darifyqym@mailinator.com",
-        "contactPhone": "+1 (879) 888-6938"
-      }
-    },
-    {
-      "id": "b2e8",
-      "type": "Part-Time",
-      "title": "Cain Watson",
-      "description": "Quis in laborum Est",
-      "salary": "$100K - $125K",
-      "location": "Dolorum numquam nost",
-      "company": {
-        "name": "Ball James Trading",
-        "description": "Et nesciunt modi do",
-        "contactEmail": "qepuwik@mailinator.com",
-        "contactPhone": "+1 (865) 426-6208"
-      }
-    },
-    {
-      "id": "a9a8",
-      "type": "Internship",
-      "title": "MacKensie Chapman",
-      "description": "Laborum Veritatis c",
-      "salary": "$50K - $60K",
-      "location": "Nostrum dolore corru",
-      "company": {
-        "name": "Alexander Gay Co",
-        "description": "Sint nihil minus si",
-        "contactEmail": "hulijyci@mailinator.com",
-        "contactPhone": "+1 (277) 656-9376"
-      }
     }
   ]
 }
