@@ -85,18 +85,18 @@
       }
     },
     {
-      "id": "9824",
-      "type": "Part-Time",
-      "title": "TEST JOB 02",
-      "description": "Est ad est magna un",
-      "salary": "$125K - $150K",
+      "type": "Full-Time",
+      "title": "TEST EDIT MY JOB 02",
+      "description": "Est ad est magna un\ntest test test",
+      "salary": "Over $200K",
       "location": "Minima adipisci sunt",
       "company": {
         "name": "Delacruz and Hammond Plc",
         "description": "Ullam irure accusamu",
         "contactEmail": "kedumuca@mailinator.com",
-        "contactPhone": "+1 (576) 261-1581"
-      }
+        "contactPhone": "999-999-999"
+      },
+      "id": "9824"
     }
   ]
 }
